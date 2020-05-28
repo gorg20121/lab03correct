@@ -6,3 +6,18 @@
 1590690652 c:\users\Егор\desktop\лабы\lab03correct\histogram.h
 	<vector>
 
+1590690948 source:c:\users\Егор\desktop\лабы\lab03correct\svg.cpp
+	<iostream>
+	<vector>
+	"svg.h"
+
+1590690652 c:\users\Егор\desktop\лабы\lab03correct\svg.h
+	<vector>
+	<iostream>
+
+1590693646 source:c:\users\Егор\desktop\лабы\lab03correct\main.cpp
+	<iostream>
+	<vector>
+	"histogram.h"
+	"svg.h"
+
