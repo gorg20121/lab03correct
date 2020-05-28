@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1590690652 source:c:\users\Егор\desktop\лабы\lab03correct\histogram.cpp
+	"histogram.h"
+	<vector>
+
+1590690652 c:\users\Егор\desktop\лабы\lab03correct\histogram.h
+	<vector>
+
