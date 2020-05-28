@@ -16,9 +16,49 @@
 	<vector>
 	<iostream>
 
-1590695732 source:c:\users\Егор\desktop\лабы\lab03correct\main.cpp
+1590698427 source:c:\users\Егор\desktop\лабы\lab03correct\main.cpp
 	<iostream>
 	<vector>
+	<curl/curl.h>
 	"histogram.h"
 	"svg.h"
+
+1587991348 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"typecheck-gcc.h"
+
+1588129392 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\curlver.h
+
+1587548874 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1587548874 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\easy.h
+
+1587548874 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\multi.h
+	"curl.h"
+
+1587548874 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\urlapi.h
+	"curl.h"
+
+1587548874 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\typecheck-gcc.h
 
