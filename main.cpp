@@ -2,6 +2,7 @@
 #include <vector>
 #include "histogram.h"
 #include "svg.h"
+#include <cstdio>
 using namespace std;
 
 vector<double> input_numbers(size_t count) {
@@ -12,8 +13,28 @@ vector<double> input_numbers(size_t count) {
     return result;
 }
 
+vector<size_t> make_histogram(const vector<double>& numbers, size_t bin_count){
+    double min, max;
+    find_minmax(numbers, min, max);
+    vector<size_t>count(bin_count,0);
+    for (double x: numbers){
+        size_t bin_index=(size_t)(x-min)*(bin_count)/(max-min);
+        if (bin_index==bin_count)
+        {
+            bin_index--;
+        }
+        count[bin_index]++;}
+    return count;
+}
+
 int main()
 {
+        const char* name = "Commander Shepard";
+    int year = 2154;
+    printf("%s was born in %d.\n", name, year);
+    printf("n = %08x\n", 0x123456869); // 01234567
+    return 0;
+
     size_t number_count;
     cerr<< "enter number count";
     cin>>number_count;
