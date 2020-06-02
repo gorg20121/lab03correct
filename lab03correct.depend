@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1590695055 source:c:\users\Егор\desktop\лабы\lab03correct\histogram.cpp
+1591116625 source:c:\users\Егор\desktop\лабы\lab03correct\histogram.cpp
 	"histogram.h"
 	<vector>
 	<iostream>
 
-1590695008 c:\users\Егор\desktop\лабы\lab03correct\histogram.h
+1591116625 c:\users\Егор\desktop\лабы\lab03correct\histogram.h
 	<vector>
 
-1590690948 source:c:\users\Егор\desktop\лабы\lab03correct\svg.cpp
+1590778746 source:c:\users\Егор\desktop\лабы\lab03correct\svg.cpp
 	<iostream>
 	<vector>
 	"svg.h"
@@ -16,12 +16,14 @@
 	<vector>
 	<iostream>
 
-1590698427 source:c:\users\Егор\desktop\лабы\lab03correct\main.cpp
+1591116625 source:c:\users\Егор\desktop\лабы\lab03correct\main.cpp
 	<iostream>
 	<vector>
 	<curl/curl.h>
 	"histogram.h"
 	"svg.h"
+	<sstream>
+	<string>
 
 1587991348 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\curl.h
 	"curlver.h"
