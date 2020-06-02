@@ -2,7 +2,8 @@
 #include <vector>
 #include "histogram.h"
 #include "svg.h"
-
+#include <cstdio>
+#include <windows.h>
 using namespace std;
 
 vector<double> input_numbers(size_t count) {
@@ -29,6 +30,23 @@ vector<size_t> make_histogram(const vector<double>& numbers, size_t bin_count){
 
 int main()
 {
+     DWORD WINAPI GetVersion();
+    DWORD mask = 0x0000ffff;
+    DWORD mask2 = 0x000000ff;
+    DWORD info = GetVersion();
+    DWORD platform = info >> 16;
+    DWORD version = info & mask;
+    DWORD version_major = version & mask2;
+    DWORD version_minor = version >>8;
+    if ((version & 0x80000000) == 0) {
+            printf("true\n");
+        }
+
+        DWORD build = platform;
+
+        printf("Windows v%d.%d (build %d)", version_major, version_minor, build);
+
+    return 0;
 
     size_t number_count;
     cerr<< "enter number count";
