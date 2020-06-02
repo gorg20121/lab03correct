@@ -4,6 +4,8 @@
 #include "svg.h"
 #include <cstdio>
 #include <windows.h>
+#include <string>
+#include <sstream>
 using namespace std;
 
 vector<double> input_numbers(size_t count) {
