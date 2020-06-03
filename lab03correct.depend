@@ -1,12 +1,20 @@
 # depslib dependency file v1.0
-1591142554 source:c:\users\Егор\desktop\лабы\lab03correct\histogram.cpp
+294669704 <<<<<<< HEAD
+
+1591215250 source:c:\users\Егор\desktop\лабы\lab03correct\histogram.cpp
 	"histogram.h"
 	<vector>
 	<iostream>
 	<cstdio>
+	<windows.h>
 
-1591141775 c:\users\Егор\desktop\лабы\lab03correct\histogram.h
+1591215208 c:\users\Егор\desktop\лабы\lab03correct\histogram.h
 	<vector>
+	<iostream>
+	<string>
+	<sstream>
+
+1591141401 04-2
 
 1590778746 source:c:\users\Егор\desktop\лабы\lab03correct\svg.cpp
 	<iostream>
@@ -17,7 +25,9 @@
 	<vector>
 	<iostream>
 
-1591116625 source:c:\users\Егор\desktop\лабы\lab03correct\main.cpp
+1590690652 D
+
+1591215506 source:c:\users\Егор\desktop\лабы\lab03correct\main.cpp
 	<iostream>
 	<vector>
 	<curl/curl.h>
@@ -25,6 +35,11 @@
 	"svg.h"
 	<sstream>
 	<string>
+	<stdlib.h>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
 
 1587991348 c:\users\Егор\desktop\лабы\lab03correct\curl\include\curl\curl.h
 	"curlver.h"
