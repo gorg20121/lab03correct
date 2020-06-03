@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1591116625 source:c:\users\Егор\desktop\лабы\lab03correct\histogram.cpp
+1591142554 source:c:\users\Егор\desktop\лабы\lab03correct\histogram.cpp
 	"histogram.h"
 	<vector>
 	<iostream>
+	<cstdio>
 
-1591116625 c:\users\Егор\desktop\лабы\lab03correct\histogram.h
+1591141775 c:\users\Егор\desktop\лабы\lab03correct\histogram.h
 	<vector>
 
 1590778746 source:c:\users\Егор\desktop\лабы\lab03correct\svg.cpp
